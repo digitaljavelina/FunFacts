@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		991D31801A32C9900096B349 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991D317F1A32C9900096B349 /* FactBook.swift */; };
+		991D31841A335FD40096B349 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991D31831A335FD40096B349 /* ColorWheel.swift */; };
 		992104B41A2AD45F00ADAC2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992104B31A2AD45F00ADAC2B /* AppDelegate.swift */; };
 		992104B61A2AD45F00ADAC2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992104B51A2AD45F00ADAC2B /* ViewController.swift */; };
 		992104B91A2AD46000ADAC2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992104B71A2AD46000ADAC2B /* Main.storyboard */; };
 		992104BB1A2AD46000ADAC2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992104BA1A2AD46000ADAC2B /* Images.xcassets */; };
 		992104BE1A2AD46000ADAC2B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992104BC1A2AD46000ADAC2B /* LaunchScreen.xib */; };
 		992104CA1A2AD46000ADAC2B /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992104C91A2AD46000ADAC2B /* FunFactsTests.swift */; };
+		99AE0AC21A3373C900AE9CCC /* ColorGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AE0AC11A3373C900AE9CCC /* ColorGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		991D317F1A32C9900096B349 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		991D31831A335FD40096B349 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 		992104AE1A2AD45F00ADAC2B /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		992104B21A2AD45F00ADAC2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		992104B31A2AD45F00ADAC2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,8 @@
 		992104C31A2AD46000ADAC2B /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		992104C81A2AD46000ADAC2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		992104C91A2AD46000ADAC2B /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
+		992104D31A2AD51A00ADAC2B /* ScratchPad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ScratchPad.playground; sourceTree = SOURCE_ROOT; };
+		99AE0AC11A3373C900AE9CCC /* ColorGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorGenerator.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +84,16 @@
 		992104B01A2AD45F00ADAC2B /* FunFacts */ = {
 			isa = PBXGroup;
 			children = (
+				991D31831A335FD40096B349 /* ColorWheel.swift */,
+				99AE0AC11A3373C900AE9CCC /* ColorGenerator.swift */,
 				992104B31A2AD45F00ADAC2B /* AppDelegate.swift */,
 				992104B51A2AD45F00ADAC2B /* ViewController.swift */,
+				991D317F1A32C9900096B349 /* FactBook.swift */,
 				992104B71A2AD46000ADAC2B /* Main.storyboard */,
 				992104BA1A2AD46000ADAC2B /* Images.xcassets */,
 				992104BC1A2AD46000ADAC2B /* LaunchScreen.xib */,
 				992104B11A2AD45F00ADAC2B /* Supporting Files */,
+				992104D31A2AD51A00ADAC2B /* ScratchPad.playground */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -156,11 +167,14 @@
 		992104A61A2AD45F00ADAC2B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Digital Javelina, LLC";
 				TargetAttributes = {
 					992104AD1A2AD45F00ADAC2B = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = YHWHU4634V;
 					};
 					992104C21A2AD46000ADAC2B = {
 						CreatedOnToolsVersion = 6.1;
@@ -212,8 +226,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				991D31801A32C9900096B349 /* FactBook.swift in Sources */,
 				992104B61A2AD45F00ADAC2B /* ViewController.swift in Sources */,
+				99AE0AC21A3373C900AE9CCC /* ColorGenerator.swift in Sources */,
 				992104B41A2AD45F00ADAC2B /* AppDelegate.swift in Sources */,
+				991D31841A335FD40096B349 /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +353,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -346,9 +366,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -405,6 +428,7 @@
 				992104CF1A2AD46000ADAC2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		992104D01A2AD46000ADAC2B /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +437,7 @@
 				992104D21A2AD46000ADAC2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
